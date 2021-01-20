@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+Bienvenue ! Voici ma synthèse de veille sur la NLP, réalisée dans le cadre du MOS 4.4 "Nouvelles Technologies de l’Information et de la Communication" à l’École Centrale de Lyon -*Salaheddine Mesdar*
 
-You can use the [editor on GitHub](https://github.com/Mesto00/Veille_NLP/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![Image3](imagenlp.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Introduction
 
 ### Markdown
 
