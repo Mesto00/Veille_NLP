@@ -77,3 +77,8 @@ Les N-grams sont la fusion de plusieurs lettres ou de plusieurs mots. Elles sont
  - Les unigrammes sont les mots uniques présents dans la phrase.
 - Le bigramme est la combinaison de 2 mots.
 - Le trigramme est la combinaison de 3 mots et ainsi de suite.
+Par exemple, pour la phrase "I am learning NLP":
+- Unigrammes : “I”, “am”, “ learning”, “NLP”
+- Bigrammes : “I am”, “am learning”, “learning NLP”
+- Trigrammes : “I am learning”, “am learning NLP”
+### Bag of words
