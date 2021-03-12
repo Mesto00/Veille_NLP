@@ -43,6 +43,6 @@ On l’ignore peut-être, mais de nombreuses applications qu’on utilise au quo
 - Auto-correction orthographique et traduction
 - Les traitements de texte comme Microsoft Word et Grammarly utilisent le NLP pour vérifier la grammaire et l’orthographe des textes. 
 - Les applications de type Interactive Voice Response (IVR) utilisées par les centres d’appel permettent de traiter automatiquement certaines requêtes.
-![Image3](applications_NLP_1.PNG)
-![Image3](applications_NLP_2.PNG)
+![Image3](applications_NLP.PNG)
+
 
