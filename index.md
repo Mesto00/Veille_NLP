@@ -49,20 +49,20 @@ On l’ignore peut-être, mais de nombreuses applications qu’on utilise au quo
 ## Méthodes du NLP
 ### Phase de prétraitement de texte
 Les données collectées sont souvent incohérentes, incomplètes et contenant généralement beaucoup de bruit est susceptibles d’avoir des erreurs. Par conséquent, comme dans les autres domaines de la science des données, la première étape est l’étape du nettoyage et la préparation du texte brute pour le transformer en un format compréhensible.
-1-	Conversion des données textuelles en minuscules 
+1.	Conversion des données textuelles en minuscules 
 Cette étape vise à mettre toutes les données dans un format uniforme et de s'assurer que "NLP" et "nlp" sont traités de la même manière.
-2-	Suppression de la ponctuation
+2.	Suppression de la ponctuation
 Etant donné que la ponctuation n’apporte aucune information ou valeur supplémentaire dans ce contexte, la suppression de ces instances permet d’augmenter l’efficacité de calcul en réduisant la taille des données.
-3-	Suppression des mots d'arrêt (Stop words)
+3.	Suppression des mots d'arrêt (Stop words)
 Les mots d’arrêt (Exemple : à, en, comment, quel, auquel….) n’ont aucune signification ou une signification moindre par rapport aux autres mots-clés et leur suppression permettrait de se concentrer sur l’analyse de ces mots-clés. 
-4-	Normalisation du texte
+4.	Normalisation du texte
 La normalisation du texte peut aider le processus en aval à facilement comprendre et résoudre la sémantique du texte.
-5-	Tokenisation du texte
+5.	Tokenisation du texte
 Cette étape consiste à diviser le texte d’entrée en unités minimales significatives. Cette étape est une étape obligatoire du prétraitement du texte pour tout type d'analyse.
-6-	Stemming
+6.	Stemming
 Le Stemming est un processus d'extraction de la racine d'un mot. Par exemple, "Poisson", "Poissons" sont transformés en "Poisson".
 Exemple: The Boys’ cars are different colors => the boy car be differ color
-7-	Lemmatisation
+7.	Lemmatisation
 La lemmatisation consiste à extraire un mot racine en tenant compte du vocabulaire. Par exemple, "good", "better" ou "best" est lemmatisé en ’’good’’.  
 Par exemple si on applique le stemming sur ’’ leafs’’ on aura ’’leaf’’ comme résultat et si on l’applique sur ’’leaves’’ on aura ’’leav’’, alors la lemmatisation permet d’avoir ’’leaf’’ dans les deux cas.
 
