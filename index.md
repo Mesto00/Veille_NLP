@@ -36,6 +36,7 @@ L’analyse pragmatique dans le NLP essaye d’utiliser des connaissances du mon
 
 ## Domaines d’application du NLP :
 On l’ignore peut-être, mais de nombreuses applications qu’on utilise au quotidien reposent sur le traitement du langage naturel (NLP). On cite : 
+
 -L’extraction d’information ou la recherche d’information (par exemple avec les moteurs de recherche Google, Inbenta etc.)
 - Création des chatbot de plus en plus « intelligents »
 - Les assistants personnels tels que Apple Siri, Microsoft Cortana, Amazon Alexa ou Google assistant
