@@ -67,5 +67,13 @@ text devient : ['introduct', 'nlp', 'tell', 'find', 'hope', 'found', 'amaz', 'in
 La lemmatisation consiste à extraire un mot racine en tenant compte du vocabulaire. Par exemple, "good", "better" ou "best" est lemmatisé en ’’good’’.  
 Par exemple si on applique le stemming sur ’’ leafs’’ on aura ’’leaf’’ comme résultat et si on l’applique sur ’’leaves’’ on aura ’’leav’’, alors la lemmatisation permet d’avoir ’’leaf’’ dans les deux cas. Donc text devient: ""['introduct', 'nlp', 'tell', 'find', 'hope', 'find', 'amazing', 'interesting']
 
-
-
+### Vectorisation du texte
+Aprés le nettoyage et la préparation des données vient la partie de vectorisation des données. Cela signifie d'encoder l’ensemble de mots en un vecteur de nombres. Cela 
+peut être dait par les méthodes N-gram et Bag of Words.
+#### N-grams
+La méthode N-grams prend en compte les voisinages des mots en considérant les mots précédents et suivants, pour voir si cela donne un sens correct et complet aux mots.
+Par exemple, considérons le mot "pas mal". S'il est divisé en plusieurs mots, il ne pourra pas transmettre le mot "bon", qui est le sens réel de ce mot. Ce problème peut être résolu par N-grams.
+Les N-grams sont la fusion de plusieurs lettres ou de plusieurs mots. Elles sont formés de telle manière que même les mots précédents et suivants sont capturés.
+ - Les unigrammes sont les mots uniques présents dans la phrase.
+- Le bigramme est la combinaison de 2 mots.
+- Le trigramme est la combinaison de 3 mots et ainsi de suite.
