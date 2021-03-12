@@ -58,11 +58,11 @@ Cette étape consiste à diviser le texte d’entrée en unités minimales signi
 text devient: 
 ['this', 'is', 'an', 'introduction', 'to', 'nlp', 'tell', 'me', 'how', 'do', 'you', 'find', 'it', 'i', 'hope', 'you', 'found', 'it', 'amazing', 'and', 'interesting']
 4.	Suppression des mots d'arrêt (Stop words)
-Les mots d’arrêt (Exemple : à, en, comment, quel, auquel….) n’ont aucune signification ou une signification moindre par rapport aux autres mots-clés et leur suppression permettrait de se concentrer sur l’analyse de ces mots-clés. Donc text devient: "['introduction', 'nlp', 'tell', 'find', 'hope', 'found', 'amazing', 'interesting']"
+Les mots d’arrêt (Exemple : à, en, comment, quel, auquel….) n’ont aucune signification ou une signification moindre par rapport aux autres mots-clés et leur suppression permettrait de se concentrer sur l’analyse de ces mots-clés. Donc text devient: ['introduction', 'nlp', 'tell', 'find', 'hope', 'found', 'amazing', 'interesting']
 5.	Stemming
 Le Stemming est un processus d'extraction de la racine d'un mot. Par exemple, "Poisson", "Poissons" sont transformés en "Poisson".
 Exemple: The Boys’ cars are different colors => the boy car be differ color
-text devient : "['introduct', 'nlp', 'tell', 'find', 'hope', 'found', 'amaz', 'interest']"
+text devient : ['introduct', 'nlp', 'tell', 'find', 'hope', 'found', 'amaz', 'interest']
 6.	Lemmatisation
 La lemmatisation consiste à extraire un mot racine en tenant compte du vocabulaire. Par exemple, "good", "better" ou "best" est lemmatisé en ’’good’’.  
 Par exemple si on applique le stemming sur ’’ leafs’’ on aura ’’leaf’’ comme résultat et si on l’applique sur ’’leaves’’ on aura ’’leav’’, alors la lemmatisation permet d’avoir ’’leaf’’ dans les deux cas. Donc text devient: ""['introduct', 'nlp', 'tell', 'find', 'hope', 'find', 'amazing', 'interesting']
