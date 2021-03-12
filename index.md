@@ -65,7 +65,7 @@ Exemple: The Boys’ cars are different colors => the boy car be differ color
 text devient : "['introduct', 'nlp', 'tell', 'find', 'hope', 'found', 'amaz', 'interest']"
 6.	Lemmatisation
 La lemmatisation consiste à extraire un mot racine en tenant compte du vocabulaire. Par exemple, "good", "better" ou "best" est lemmatisé en ’’good’’.  
-Par exemple si on applique le stemming sur ’’ leafs’’ on aura ’’leaf’’ comme résultat et si on l’applique sur ’’leaves’’ on aura ’’leav’’, alors la lemmatisation permet d’avoir ’’leaf’’ dans les deux cas. Donc text devient: ""['introduct', 'nlp', 'tell', 'find', 'hope', 'find', 'amazing', 'interesting']""
+Par exemple si on applique le stemming sur ’’ leafs’’ on aura ’’leaf’’ comme résultat et si on l’applique sur ’’leaves’’ on aura ’’leav’’, alors la lemmatisation permet d’avoir ’’leaf’’ dans les deux cas. Donc text devient: ""['introduct', 'nlp', 'tell', 'find', 'hope', 'find', 'amazing', 'interesting']
 
 
 
