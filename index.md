@@ -1,6 +1,6 @@
 Bienvenue ! Voici ma synthèse de veille sur le traitement automatique du langage naturel (Natural language processing en anglais) NLP, réalisée dans le cadre du MOS 4.4 "Nouvelles Technologies de l’Information et de la Communication" à l’École Centrale de Lyon -*Salaheddine Mesdar*
 
-![Image2](imagenlp.png)
+![Image2](imagenlp.png?style=centerme)
 
 ## Introduction
 Dans le cadre du MOS4.4 « Nouvelles technologies de l’Information et de la Communication » l’école Centrale de Lyon vise à former ses élèves ingénieurs à développer des techniques de recherche d’informations et d’en choisir les plus pertinentes vue le grand nombre d’informations publiées en Internet chaque jour. Les outils présentés dans ce MOS permettent de faire une bonne veille technologique concernant un sujet. Le sujet que j’ai choisi est le traitement du langage naturel ou Natural Language Processing (NLP) en anglais.
